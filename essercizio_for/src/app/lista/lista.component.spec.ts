@@ -5,6 +5,9 @@ import { ListaComponent } from './lista.component';
 describe('ListaComponent', () => {
   let component: ListaComponent;
   let fixture: ComponentFixture<ListaComponent>;
+  
+  let number: number = 2;
+  console.log(number);
 
   beforeEach(() => {
     TestBed.configureTestingModule({
