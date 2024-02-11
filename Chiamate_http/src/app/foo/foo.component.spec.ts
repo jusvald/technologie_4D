@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AnimalsComponent } from './animals.component';
+import { FooComponent } from './foo.component';
 
-describe('AnimalsComponent', () => {
-  let component: AnimalsComponent;
-  let fixture: ComponentFixture<AnimalsComponent>;
+describe('FooComponent', () => {
+  let component: FooComponent;
+  let fixture: ComponentFixture<FooComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [AnimalsComponent]
+      declarations: [FooComponent]
     });
-    fixture = TestBed.createComponent(AnimalsComponent);
+    fixture = TestBed.createComponent(FooComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
@@ -18,5 +18,6 @@ describe('AnimalsComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+  
 });
 

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Prova_Angular_Routing": {
+    "Chiamate_http": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/prova-angular-routing",
+            "outputPath": "dist/chiamate-http",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Prova_Angular_Routing:build:production"
+              "browserTarget": "Chiamate_http:build:production"
             },
             "development": {
-              "browserTarget": "Prova_Angular_Routing:build:development"
+              "browserTarget": "Chiamate_http:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Prova_Angular_Routing:build"
+            "browserTarget": "Chiamate_http:build"
           }
         },
         "test": {
@@ -94,8 +94,5 @@
         }
       }
     }
-  },
-  "cli": {
-    "analytics": "90dd83d8-e5b0-4b93-bc90-e6fcdc88eeda"
   }
 }
